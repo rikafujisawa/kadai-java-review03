@@ -46,7 +46,7 @@ public class BaseBallTeam {
 
     // reportメソッド
     public void report() {
-        System.out.println(this.name + "の2022年の成績は " + this.win + "勝 " + this.lose + "敗 " + this.draw + "分、勝率は "
+        System.out.println(this.getName() + "の2022年の成績は " + this.getWin() + "勝 " + this.getLose() + "敗 " + this.getDraw() + "分、勝率は "
                 + this.getRate() + "です。");
     }
 }
